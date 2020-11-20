@@ -1,0 +1,59 @@
+body {
+  background: #152586;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0;
+  padding: 12px;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid white;
+  margin: 2em 0;
+  opacity: 0.2;
+}
+
+a {
+  color: white;
+}
+
+a:visited,
+a.return {
+  color: rgba(255,255,255,0.4);
+}
+
+ul {
+  margin: 0;
+  padding-left: 1em;
+}
+
+li {
+  margin-bottom: 1em;
+  text-indent: 0.75em;
+}
+
+.everything {
+  max-width: 700px;
+}
+
+.color {
+  height: 1em;
+  width: 1em;
+  margin-right: 0.5em;
+  vertical-align: -0.25em;
+  display: inline-block;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+}
+
+td {
+  padding-right: 0.5em;
+  padding-bottom: 0.25em;
+  padding: 0.5em;
+  border: 1px solid rgba(255,255,255,0.4);
+}
